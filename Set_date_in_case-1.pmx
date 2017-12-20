@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.2.1-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1513727731</meta>
+    <meta key="export_datetime"><![CDATA[2017-12-19T18:55:31-05:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[::1:321]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50620</meta>
+    <meta key="export_version">1</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name">Set date in case</meta>
+    <meta key="uid">9180656935a39a1e9302280026251293</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>1106153145a39a1ea1b6385021530073</act_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <pro_uid>8886802785a39a1e995aab4069714522</pro_uid>
+        <act_name><![CDATA[Select case/date]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>1538044285a39a1ea1f7b49041782941</bou_uid>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <element_uid>1106153145a39a1ea1b6385021530073</element_uid>
+        <bou_element>6227079845a39a1f3bf79d0034064899</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>200</bou_x>
+        <bou_y>95</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>1223930085a39a1eab3c675055740282</bou_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <element_uid>9499668055a39a1eaafd063087662965</element_uid>
+        <bou_element>6227079845a39a1f3bf79d0034064899</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>121</bou_x>
+        <bou_y>116</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>1538044285a39a1ea1f7b49041782941</bou_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <element_uid>1106153145a39a1ea1b6385021530073</element_uid>
+        <bou_element>6227079845a39a1f3bf79d0034064899</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>200</bou_x>
+        <bou_y>95</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>6746456415a39a1ea8df184074855824</bou_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <element_uid>1340292125a39a1ea8b1bc3037501667</element_uid>
+        <bou_element>6227079845a39a1f3bf79d0034064899</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>394</bou_x>
+        <bou_y>116</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <dia_name>Set date in case</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>1340292125a39a1ea8b1bc3037501667</evn_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <pro_uid>8886802785a39a1e995aab4069714522</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>6746456415a39a1ea8df184074855824</bou_uid>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <element_uid>1340292125a39a1ea8b1bc3037501667</element_uid>
+        <bou_element>6227079845a39a1f3bf79d0034064899</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>394</bou_x>
+        <bou_y>116</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>9499668055a39a1eaafd063087662965</evn_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <pro_uid>8886802785a39a1e995aab4069714522</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>1223930085a39a1eab3c675055740282</bou_uid>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <element_uid>9499668055a39a1eaafd063087662965</element_uid>
+        <bou_element>6227079845a39a1f3bf79d0034064899</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>121</bou_x>
+        <bou_y>116</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>1072397165a39a1ead250a1078108178</flo_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>1106153145a39a1ea1b6385021530073</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>1340292125a39a1ea8b1bc3037501667</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>351</flo_x1>
+        <flo_y1>133</flo_y1>
+        <flo_x2>394</flo_x2>
+        <flo_y2>133</flo_y2>
+        <flo_state><![CDATA[[{"x":351,"y":133},{"x":394,"y":133}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>8317781315a39a1ead24d29061032313</flo_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>9499668055a39a1eaafd063087662965</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>1106153145a39a1ea1b6385021530073</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>154</flo_x1>
+        <flo_y1>133</flo_y1>
+        <flo_x2>200</flo_x2>
+        <flo_y2>133</flo_y2>
+        <flo_state><![CDATA[[{"x":154,"y":133},{"x":200,"y":133}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>8886802785a39a1e995aab4069714522</pro_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <dia_uid>5462210135a39a1e9892d86042312698</dia_uid>
+        <pro_name>Set date in case</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <prj_name>Set date in case</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2017-12-12 19:51:58]]></prj_create_date>
+        <prj_update_date><![CDATA[2017-12-19 18:35:43]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>9180656935a39a1e9302280026251293</pro_uid>
+        <pro_title>Set date in case</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>4740046365a3079ae80b7c0042684741</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2017-12-19 18:35:43]]></pro_update_date>
+        <pro_create_date><![CDATA[2017-12-19 18:34:01]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>1</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>9180656935a39a1e9302280026251293</pro_uid>
+        <tas_uid>1106153145a39a1ea1b6385021530073</tas_uid>
+        <tas_title><![CDATA[Select case/date]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>200</tas_posx>
+        <tas_posy>95</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>8572116265a39a24f9651a5006757618</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>9180656935a39a1e9302280026251293</pro_uid>
+        <tas_uid>1106153145a39a1ea1b6385021530073</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>6473873125a39a1ebad63d2004462369</dyn_uid>
+        <dyn_title><![CDATA[Enter case number & date]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>9180656935a39a1e9302280026251293</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[9180656935a39a1e9302280026251293/6473873125a39a1ebad63d2004462369]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Enter case number & date","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"6473873125a39a1ebad63d2004462369","name":"Enter case number & date","description":"","mode":"edit","script":{"type":"js","code":"$(\"#cancelButton\").find(\"button\").click(function() {\n  $(\"#action\").setValue(\"CANCEL\");\n});\n\n$(\"#copyCaseData\").find(\"button\").click(function() {\n  $(\"#action\").setValue(\"COPY_DATA\");\n});\n"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"subtitle","id":"subtitle0000000001","label":"Enter the case number and the date value to set in the case.","colSpan":12}],[{"type":"text","variable":"caseNo","var_uid":"5186493605a39a276954e33066186163","dataType":"string","protectedValue":false,"id":"caseNo","name":"caseNo","label":"Case Number","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"^\\d*$","validateMessage":"Only numbers allowed.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"caseNo","colSpan":4},{"type":"textarea","variable":"caseInfo","var_uid":"6568407055a39a2a7caa804066706704","dataType":"string","protectedValue":false,"id":"caseInfo","name":"caseInfo","label":"Case Info.","defaultValue":"","placeholder":"","hint":"","required":false,"validate":"","validateMessage":"","mode":"view","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT CONCAT('Process: ', APP_PRO_TITLE, '\\nLast task: ', APP_TAS_TITLE, '\\nLast user: ', \n  APP_CURRENT_USER, '\\n Status: ', APP_STATUS, '\\nLast update:  ', APP_UPDATE_DATE) FROM APP_CACHE_VIEW\n  WHERE APP_NUMBER = @@caseNo AND DEL_INDEX=(\n  SELECT MAX(DEL_INDEX) FROM APP_CACHE_VIEW WHERE APP_NUMBER = @@caseNo)","rows":"5","var_name":"caseInfo","colSpan":8}],[{"type":"datetime","variable":"dateToSet","var_uid":"3803868395a39a2d100ae09026671648","dataType":"datetime","protectedValue":false,"id":"dateToSet","name":"dateToSet","label":"Date to set in case","placeholder":"","hint":"","required":false,"mode":"parent","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"dateToSet","colSpan":12}],[{"colSpan":3},{"type":"submit","id":"cancelButton","name":"cancelButton","label":"Cancel","colSpan":3},{"type":"submit","id":"copyCaseData","name":"copyCaseData","label":"Set date","colSpan":3},{"colSpan":3}],[{"type":"hidden","variable":"action","var_uid":"2534656095a39a1ebe4a7c8093530121","dataType":"string","protectedValue":false,"id":"action","name":"action","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"action","colSpan":12}]],"variables":[{"var_uid":"5186493605a39a276954e33066186163","prj_uid":"9180656935a39a1e9302280026251293","var_name":"caseNo","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6568407055a39a2a7caa804066706704","prj_uid":"9180656935a39a1e9302280026251293","var_name":"caseInfo","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"3803868395a39a2d100ae09026671648","prj_uid":"9180656935a39a1e9302280026251293","var_name":"dateToSet","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2534656095a39a1ebe4a7c8093530121","prj_uid":"9180656935a39a1e9302280026251293","var_name":"action","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-12-19 18:51:38]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>4585823245a39a1ebbf2ff8000406407</step_uid>
+        <pro_uid>9180656935a39a1e9302280026251293</pro_uid>
+        <tas_uid>1106153145a39a1ea1b6385021530073</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>6473873125a39a1ebad63d2004462369</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>1290523925a39a1ebd0d1a2082639691</tri_uid>
+        <tri_title>Set date in specified case</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>9180656935a39a1e9302280026251293</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[//set to ID of Dynaform to redirect to
+$dynaformId = '6473873125a39a1ebad63d2004462369'; 
+$g = new G();
+
+if (isset(@@action) and @@action == "COPY_DATA") {
+	if (empty(@@caseNo)) {
+		$g->sendMessageText("Enter the case number where the date will be set.", 'WARNING');
+		PMFRedirectToStep(@@APPLICATION, @%INDEX, 'DYNAFORM', $dynaformId);
+	}
+	
+	$sql = "SELECT * FROM APPLICATION WHERE APP_NUMBER=".@@caseNo;
+	$aCaseSearch = executeQuery($sql);
+	
+	if (!is_array($aCaseSearch) or count($aCaseSearch) != 1) {
+		$g->sendMessageText("Case number ".@@fromCaseNo.
+			" doesn't exist. Enter a different Case Number.", 'WARNING');
+		PMFRedirectToStep(@@APPLICATION, @%INDEX, 'DYNAFORM', $dynaformId);
+	}
+		
+	$aVars = array(
+		'dateToSet' => @@dateToSet
+	);
+	PMFSendVariables($aCaseSearch[1]['APP_UID'], $aVars);
+		
+	$msg = "Date '".@@dateToSet."' set in case #".@@caseNo.".";
+	$g->sendMessageText($msg, 'INFO');
+	
+	//reset variables:
+	@@action = '';
+	@@caseNo = '';
+	@@caseInfo = '';
+	@@dateToSet = '';
+	
+	PMFRedirectToStep(@@APPLICATION, @%INDEX, 'DYNAFORM', $dynaformId);	
+}
+elseif (isset(@@action) and @@action == "CANCEL") {
+	//reset variables:
+	@@action = '';
+	@@caseNo = '';
+	@@caseInfo = '';
+	@@dateToSet = '';
+	
+	PMFRedirectToStep(@@APPLICATION, @%INDEX, 'DYNAFORM', $dynaformId);
+}]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>4585823245a39a1ebbf2ff8000406407</step_uid>
+        <tas_uid>1106153145a39a1ea1b6385021530073</tas_uid>
+        <tri_uid>1290523925a39a1ebd0d1a2082639691</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1899795985a39a1ebe58338087163980</var_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <var_name>fromCaseNo</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2534656095a39a1ebe4a7c8093530121</var_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <var_name>action</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3803868395a39a2d100ae09026671648</var_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <var_name>dateToSet</var_name>
+        <var_field_type>datetime</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>datetime</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3836097975a39a1ebdb06e0043969220</var_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <var_name>caseFromInfo</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4278234995a39a1ebe50f58024335293</var_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <var_name>caseToInfo</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5001519765a39a1ebe65bf9042253186</var_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <var_name>toCaseNo</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5186493605a39a276954e33066186163</var_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <var_name>caseNo</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6568407055a39a2a7caa804066706704</var_uid>
+        <prj_uid>9180656935a39a1e9302280026251293</prj_uid>
+        <var_name>caseInfo</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name><![CDATA[Enter case number & date]]></file_name>
+      <file_path><![CDATA[9180656935a39a1e9302280026251293/6473873125a39a1ebad63d2004462369.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjkxODA2NTY5MzVhMzlhMWU5MzAyMjgwMDI2MjUxMjkzLzY0NzM4NzMxMjVhMzlhMWViYWQ2M2QyMDA0NDYyMzY5IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

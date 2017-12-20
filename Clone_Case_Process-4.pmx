@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.1.3</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1513781409</meta>
+    <meta key="export_datetime"><![CDATA[2017-12-20T14:50:09+00:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[172.31.26.223:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50632</meta>
+    <meta key="workspace">4iiz</meta>
+    <meta key="name">Clone Case Process</meta>
+    <meta key="uid">47642680359b875308ca207021526673</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>59326074059b87566cee9f1094297935</act_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <pro_uid>73077953959b875310a0cc2000370022</pro_uid>
+        <act_name>Select Case</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>98178690159b87566d35807037246798</bou_uid>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <element_uid>59326074059b87566cee9f1094297935</element_uid>
+        <bou_element>31010047559dbb4f203ee14044362528</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>195</bou_x>
+        <bou_y>98</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>27150321659b875675550a1085715518</bou_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <element_uid>62504508359b8756753d013069666904</element_uid>
+        <bou_element>31010047559dbb4f203ee14044362528</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>254</bou_x>
+        <bou_y>32</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>61522214559b9d9023ee4c0050130862</bou_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <element_uid>25353913159b9d902335017044397134</element_uid>
+        <bou_element>31010047559dbb4f203ee14044362528</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>307</bou_x>
+        <bou_y>201</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>98178690159b87566d35807037246798</bou_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <element_uid>59326074059b87566cee9f1094297935</element_uid>
+        <bou_element>31010047559dbb4f203ee14044362528</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>195</bou_x>
+        <bou_y>98</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <dia_name>Clone Case Process</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>25353913159b9d902335017044397134</evn_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <pro_uid>73077953959b875310a0cc2000370022</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>61522214559b9d9023ee4c0050130862</bou_uid>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <element_uid>25353913159b9d902335017044397134</element_uid>
+        <bou_element>31010047559dbb4f203ee14044362528</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>307</bou_x>
+        <bou_y>201</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>62504508359b8756753d013069666904</evn_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <pro_uid>73077953959b875310a0cc2000370022</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>27150321659b875675550a1085715518</bou_uid>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <element_uid>62504508359b8756753d013069666904</element_uid>
+        <bou_element>31010047559dbb4f203ee14044362528</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>254</bou_x>
+        <bou_y>32</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>38744796959dbb1c5496873036800827</flo_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>59326074059b87566cee9f1094297935</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>25353913159b9d902335017044397134</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>271</flo_x1>
+        <flo_y1>173</flo_y1>
+        <flo_x2>307</flo_x2>
+        <flo_y2>218</flo_y2>
+        <flo_state><![CDATA[[{"x":271,"y":173},{"x":271,"y":218},{"x":307,"y":218}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>41891433759dbb1c5496a15083156496</flo_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>62504508359b8756753d013069666904</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>59326074059b87566cee9f1094297935</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>271</flo_x1>
+        <flo_y1>65</flo_y1>
+        <flo_x2>271</flo_x2>
+        <flo_y2>98</flo_y2>
+        <flo_state><![CDATA[[{"x":271,"y":65},{"x":271,"y":98}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>73077953959b875310a0cc2000370022</pro_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <dia_uid>39225975859b87530dd9545087561917</dia_uid>
+        <pro_name>Clone Case Process</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <prj_name>Clone Case Process</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2017-09-12 20:00:48]]></prj_create_date>
+        <prj_update_date><![CDATA[2017-10-09 17:42:22]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>47642680359b875308ca207021526673</pro_uid>
+        <pro_title>Clone Case Process</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>47642680359b875308ca207021526673</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2017-10-09 17:42:22]]></pro_update_date>
+        <pro_create_date><![CDATA[2017-10-09 17:28:37]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>47642680359b875308ca207021526673</pro_uid>
+        <tas_uid>59326074059b87566cee9f1094297935</tas_uid>
+        <tas_title>Select Case</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>EVALUATE</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@USER_LOGGED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>8231494135968e35940f890098031663</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>195</tas_posx>
+        <tas_posy>98</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_average></tas_average>
+        <tas_sdv></tas_sdv>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>86898943559dbb4ff0701b7080501510</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>47642680359b875308ca207021526673</pro_uid>
+        <tas_uid>59326074059b87566cee9f1094297935</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>72149686359d5b628b1fcc0092759942</dyn_uid>
+        <pro_uid>47642680359b875308ca207021526673</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[47642680359b875308ca207021526673/72149686359d5b628b1fcc0092759942]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"Select Case to Duplicate","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"72149686359d5b628b1fcc0092759942","name":"Select Case to Duplicate","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"text","variable":"selectCase","var_uid":"62587510059d5b63cc461b7067584525","dataType":"string","protectedValue":false,"id":"selectCase","name":"selectCase","label":"Case Number to duplicate","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"selectCase","colSpan":12}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Submit","colSpan":12}]],"variables":[{"var_uid":"62587510059d5b63cc461b7067584525","prj_uid":"47642680359b875308ca207021526673","var_name":"selectCase","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-10-09 17:28:37]]></dyn_update_date>
+        <dyn_title>Select Case to Duplicate</dyn_title>
+        <dyn_description></dyn_description>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>31049587659d5b690dde206002358088</step_uid>
+        <pro_uid>47642680359b875308ca207021526673</pro_uid>
+        <tas_uid>59326074059b87566cee9f1094297935</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>72149686359d5b628b1fcc0092759942</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>38035966859d5b680645716015876403</tri_uid>
+        <pro_uid>47642680359b875308ca207021526673</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[if (empty(@@selectCase)) { 
+  goto triggerEnd;
+}
+
+function esc($s) {
+	return mysql_real_escape_string($s);
+}
+
+function getRecords($query, $expectedRows = false) {
+	try {
+		$aRows = executeQuery($query);
+	}
+	catch (Exception $e) {
+		throw new exception($e->getMessage().': '.$query);
+	}
+	 
+	if ($expectedRows !== false and count($aRows) != $expectedRows) {
+		throw new Exception ("Returned ".count($aRows).
+		   " rows, expected $expectedRows rows in query: ".$query);
+	}
+	return $aRows;
+}
+
+function insertClonedRecords($tableName, $aRecords, $insertSql = '') {
+	try {
+		$aFields = executeQuery('DESCRIBE '.$tableName);
+	}
+	catch (Exception $e) {
+		throw new exception($e->getMessage().': '.$query);
+	}
+	
+	foreach ($aRecords as $aRecord) {
+		$sFields = '';
+		$sValues = '';
+		
+		foreach ($aFields as $aField) {
+			$fieldName = $aField['Field'];
+			$sFields .= (empty($sFields) ? '' : ', ') . $fieldName;
+			$val = $aRecord[$fieldName];
+			
+			if ($val === NULL) {
+				$val = 'NULL';
+			}
+			//escape SQL special characters if varchar, char or *text
+			elseif (stripos($aField['Type'], 'char') !== false or stripos($aField['Type'], 'text') !== false) {
+				$val = "'".esc($val)."'";
+			}
+			//add quotation marks if date or datetime
+			elseif (stripos($aField['Type'], 'date') !== false) {
+				$val = "'".$val."'";
+			}
+			
+			$sValues .= (empty($sValues) ? '' : ', ') . $val;
+		}
+
+		$insert = !empty($insertSql) ? eval($insertSql) : "INSERT INTO $tableName ($sFields) VALUES ($sValues)";
+		try {
+			$nInserted = executeQuery($insert);
+			if ($nInserted != 1) {
+				throw new Exception("No row inserted in table");
+			}
+		}
+		catch (Exception $e) {
+			throw new exception($e->getMessage().': '.$insert);
+		}		
+	}
+} 
+
+$g = new G();
+$caseNo = @@selectCase;
+
+//lookup the Case ID:
+$result = executeQuery("SELECT APP_UID FROM APPLICATION WHERE APP_NUMBER=$caseNo");
+
+if (empty($result)) {
+	$g->SendMessageText("Case number $caseNo does not exist.", 'INFO');
+	goto triggerEnd;
+}
+
+$caseId = $result[1]['APP_UID'];
+$cloneCaseId = $g->generateUniqueID(); 
+
+//get next case number:
+$sql = "SELECT ID FROM APP_SEQUENCE";
+$lastCaseNo = executeQuery($sql)[1]['ID'];
+$nextCaseNo = $lastCaseNo + 1;
+
+//set next case number:
+$sql = "UPDATE APP_SEQUENCE SET ID=$nextCaseNo";
+try {
+	$nUpdated = executeQuery($sql);
+}
+catch (Exception $e) {
+	throw new exception($e->getMessage(). " Can't update the next case number in APP_SEQUENCE.ID. ".
+		'Probably need to edit workflow/engine/config/system-tables.ini and set: queries = "REPLACE|DELETE"');
+}
+
+//clone the APPLICATION record:
+$aRecords = getRecords("SELECT * FROM APPLICATION WHERE APP_UID='$caseId'", 1);
+
+//change the case ID, case number and case title in the cloned case:
+$title = $aRecords[1]['APP_TITLE'];
+if (preg_match('/#\d+/', $title) == 0) {
+	$title = "#{$aRecords[1]['APP_NUMBER']}: $title";
+} 
+$cloneTitle = esc("#$nextCaseNo (cloned $title)");
+$aRecords[1]['APP_TITLE'] = $cloneTitle;
+$aRecords[1]['APP_NUMBER'] = $nextCaseNo;
+$aRecords[1]['APP_UID'] = $cloneCaseId;
+
+//change case ID and number in the cloned case variables:
+$aCaseVars = unserialize($aRecords[1]['APP_DATA']);
+$aCaseVars['APPLICATION'] = $cloneCaseId;
+$aCaseVars['APP_NUMBER'] = $nextCaseNo;
+$aRecords[1]['APP_DATA'] = serialize($aCaseVars);
+
+insertClonedRecords('APPLICATION', $aRecords);
+     
+
+//clone APP_DELEGATION records:
+$aRecords = getRecords("SELECT * FROM APP_DELEGATION WHERE APP_UID='$caseId' ORDER BY DEL_INDEX");
+for ($i=1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+	unset($aRecords[$i]['DELEGATION_ID']); //remove because will be auto-incremented by MySQL
+}
+insertClonedRecords('APP_DELEGATION', $aRecords);	
+
+//clone APP_THREAD records:
+$aRecords = getRecords("SELECT * FROM APP_THREAD WHERE APP_UID='$caseId'");
+for ($i=1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_THREAD', $aRecords);	
+
+//clone APP_DOCUMENT records:
+$aRecords = getRecords("SELECT * FROM APP_DOCUMENT WHERE APP_UID='$caseId'");
+
+for ($i=1; $i <= count($aRecords); $i++) {
+	$cloneAppDocUid = $g->generateUniqueID();
+	$basePath = PATH_DOCUMENT. $g->getPathFromUID($caseId);
+	$cloneBasePath = PATH_DOCUMENT. $g->getPathFromUID($cloneCaseId);
+   
+	if (!file_exists($cloneBasePath .PATH_SEP. 'outdocs')) {      
+		if (!mkdir($cloneBasePath .PATH_SEP. 'outdocs', 0755, true)) {
+			throw new Exception("Error creating directories $cloneBasePath");
+		}
+	}
+   
+	if ($aRecords[$i]['APP_DOC_TYPE'] == 'OUTPUT') {
+		$basePath .= PATH_SEP . 'outdocs' . PATH_SEP;
+		$cloneBasePath .= PATH_SEP . 'outdocs' . PATH_SEP;
+      
+		$oldPath = $basePath . $aRecords[$i]['APP_DOC_UID'] .'_'. $aRecords[$i]['DOC_VERSION'];
+		$clonePath = $cloneBasePath . $cloneAppDocUid .'_'. $aRecords[$i]['DOC_VERSION'];
+      
+		foreach (glob($oldPath.'.*') as $filePath) {
+			$ext = pathinfo($filePath, PATHINFO_EXTENSION);
+			if (!copy($filePath, $clonePath.'.'.$ext)) {
+				throw new Exception("Error copying from $filePath to $clonePath.$ext");
+			}
+		}
+	}
+	else { //if an Input Document or attached file 
+		$ext = pathinfo($aRecords[$i]['APP_DOC_FILENAME'], PATHINFO_EXTENSION); 
+		$oldPath = $basePath .PATH_SEP. $aRecords[$i]['APP_DOC_UID'] .'_'. $aRecords[$i]['DOC_VERSION'] .'.'.$ext;
+		$clonePath = $cloneBasePath .PATH_SEP. $cloneAppDocUid .'_'. $aRecords[$i]['DOC_VERSION'] .'.'.$ext;
+      
+		if (!copy($oldPath, $clonePath)) {
+			throw new Exception("Error copying from $oldPath to $newPath");
+		}
+	}
+   
+	//copy CONTENT records for document
+	$contentQuery = "SELECT * FROM CONTENT WHERE CON_ID='{$aRecords[$i]['APP_DOC_UID']}' AND 
+		CON_PARENT='{$aRecords[$i]['DOC_VERSION']}'";
+	$aContentRecords = getRecords($contentQuery);   
+  
+	for ($ii = 1; $ii <= count($aContentRecords); $ii++) {
+		$aContentRecords[$ii]['CON_ID'] = $cloneAppDocUid;
+	}	
+	insertClonedRecords('CONTENT', $aContentRecords);
+
+   	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+	$aRecords[$i]['APP_DOC_UID'] = $cloneAppDocUid;
+}
+insertClonedRecords('APP_DOCUMENT', $aRecords);      
+         
+//The APP_CACHE_VIEW records should have already been cloned by MySQL triggers when inserting
+//in the APP_DELEGATION, but need to update the APP_TITLE for each record:
+$aRecords = getRecords("SELECT * FROM APP_CACHE_VIEW WHERE APP_UID='$caseId' ORDER BY DEL_INDEX");
+
+for ($i = 1; $i <= count($aRecords); $i++) {
+	//change the case ID, case number and case title in the cloned case:
+	$title = $aRecords[$i]['APP_TITLE'];
+	if (preg_match('/#\d+/', $title) == 0) {
+		$title = "#{$aRecords[$i]['APP_NUMBER']}: $title";
+	} 
+	$cloneTitle = esc("#$nextCaseNo (cloned $title)");
+	$sql = "UPDATE APP_CACHE_VIEW SET APP_TITLE='$cloneTitle' WHERE APP_UID='$cloneCaseId' AND DEL_INDEX=".
+		$aRecords[$i]['DEL_INDEX'];
+	executeQuery($sql);
+}
+
+//clone APP_ASSIGN_SELF_SERVICE_VALUE records:
+$aRecords = getRecords("SELECT * FROM APP_ASSIGN_SELF_SERVICE_VALUE WHERE APP_UID='$caseId'");
+for ($i = 1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_ASSIGN_SELF_SERVICE_VALUE', $aRecords);
+
+//Warning: I don't think that it is necessry to copy anything from 
+//APP_ASSIGN_SELF_SERVICE_VALUE_GROUP since the original case should already
+//have any needed values in this table for the cloned case, but I could be wrong 
+//about how it is used. 
+
+//clone APP_DELAY records:
+$aRecords = getRecords("SELECT * FROM APP_DELAY WHERE APP_UID='$caseId'");
+for ($i = 1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_DELAY_UID'] = $g->generateUniqueID();
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_DELAY', $aRecords);
+
+//clone APP_EVENT records:
+$aRecords = getRecords("SELECT * FROM APP_EVENT WHERE APP_UID='$caseId'");
+for ($i = 1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_EVENT', $aRecords);
+
+//clone APP_HISTORY records:
+$aRecords = getRecords("SELECT * FROM APP_HISTORY WHERE APP_UID='$caseId'");
+for ($i = 1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_HISTORY', $aRecords);
+
+//clone APP_MESSAGE records:
+$aRecords = getRecords("SELECT * FROM APP_MESSAGE WHERE APP_UID='$caseId'");
+for ($i = 1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_MSG_UID'] = $g->generateUniqueID();
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_MESSAGE', $aRecords);
+
+//clone APP_NOTES records:
+$aRecords = getRecords("SELECT * FROM APP_NOTES WHERE APP_UID='$caseId'");
+for ($i = 1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_NOTES', $aRecords);
+
+//clone APP_OWNER records:
+$aRecords = getRecords("SELECT * FROM APP_OWNER WHERE APP_UID='$caseId'");
+for ($i = 1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_OWNER', $aRecords);
+
+//clone APP_SOLR_QUEUE records:
+$aRecords = getRecords("SELECT * FROM APP_SOLR_QUEUE WHERE APP_UID='$caseId'");
+for ($i = 1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_SOLR_QUEUE', $aRecords);
+
+//clone APP_TIMEOUT_ACTION_EXECUTED records:
+$aRecords = getRecords("SELECT * FROM APP_TIMEOUT_ACTION_EXECUTED WHERE APP_UID='$caseId'");
+for ($i = 1; $i <= count($aRecords); $i++) {
+	$aRecords[$i]['APP_UID'] = $cloneCaseId;
+}
+insertClonedRecords('APP_TIMEOUT_ACTION_EXECUTED', $aRecords);
+
+//for the Enterprise Edition, also need to copy records in the LIST_* tables
+
+$g->SendMessageText("Case #$caseNo ($caseId) duplicated as case #$nextCaseNo ($cloneCaseId)", 'INFO');
+
+triggerEnd:
+]]></tri_webbot>
+        <tri_param></tri_param>
+        <tri_title>Duplicate selected case</tri_title>
+        <tri_description></tri_description>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>31049587659d5b690dde206002358088</step_uid>
+        <tas_uid>59326074059b87566cee9f1094297935</tas_uid>
+        <tri_uid>38035966859d5b680645716015876403</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor">
+      <record>
+        <step_uid>22703712259e4f14d3878b8073585241</step_uid>
+        <pro_uid>47642680359b875308ca207021526673</pro_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>72149686359d5b628b1fcc0092759942</step_uid_obj>
+        <step_position>1</step_position>
+      </record>
+    </table>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker">
+      <record>
+        <pro_uid>47642680359b875308ca207021526673</pro_uid>
+        <ct_map_type>PROCESSMAP</ct_map_type>
+        <ct_derivation_history>1</ct_derivation_history>
+        <ct_message_history>1</ct_message_history>
+      </record>
+    </table>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>52337788459b876ea6c78e6011794499</var_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <var_name>fromUser</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>62587510059d5b63cc461b7067584525</var_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <var_name>selectCase</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>65314937459b87a608c91b2005239017</var_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <var_name>action</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>68438684559b8773fdfd7f0037684570</var_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <var_name>reassignCasesList</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>70604690259b9df22310527020927683</var_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <var_name>userAction</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>82726027859b8778566ffe9006195896</var_uid>
+        <prj_uid>47642680359b875308ca207021526673</prj_uid>
+        <var_name>toUser</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>Select Case to Duplicate</file_name>
+      <file_path><![CDATA[47642680359b875308ca207021526673/72149686359d5b628b1fcc0092759942.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjQ3NjQyNjgwMzU5Yjg3NTMwOGNhMjA3MDIxNTI2NjczLzcyMTQ5Njg2MzU5ZDViNjI4YjFmY2MwMDkyNzU5OTQyIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
