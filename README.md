@@ -1,7 +1,9 @@
 # ProcessMaker_Processes
 A set of support processes made in ProcessMaker to add additional functionality
 
-# Bulk Case Management
+-----------------------
+
+# [Bulk Case Management](https://github.com/donawick/ProcessMaker_Processes/blob/master/Bulk_Case_Management-2.pmx)
 ProcessMaker does not currently have a way to "mass" delete cases and I'm sure they wouldn't recommend modifiyng the database. This process will allow you to have a mass-cancelation of cases under a specific user.
 
 # Clone Case
